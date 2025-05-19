@@ -5,6 +5,7 @@
 #include <iostream>
 #include "../include/Component.h"
 #include "../include/Resistor.h"
+#include "../include/ComponentFactory.h"
 
 // Dummy subclass just to test the base class
 class TestComponent : public Component {

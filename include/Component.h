@@ -5,6 +5,7 @@
 
 #include <vector>
 #include <initializer_list>
+#include <iostream>
 class Circuit;  // Forward declaration
 class Component{
     protected:
