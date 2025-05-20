@@ -1,4 +1,4 @@
-
+//Circuit.h
 #ifndef CIRCUIT_H
 #define CIRCUIT_H
 #include "Component.h"
