@@ -1,4 +1,4 @@
-//RESISTOR.H
+//resistor
 #ifndef RESISTOR_H
 #define RESISTOR_H
 #include "Component.h"
@@ -13,6 +13,9 @@ class Resistor : public Component {
         }
         void stamp(Circuit& circuit){}
     
+        std::string getType() const{
+            return "Resistor";
+        }
 
 };
 

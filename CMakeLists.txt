@@ -2,12 +2,15 @@ cmake_minimum_required(VERSION 3.10)
 project(CircuitSim)
 
 set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
-# Include headers
+# Include header files
 include_directories(include)
 
-# Find all .cpp files in src/
-file(GLOB SOURCES "src/*.cpp")
+# Source files
+file(GLOB SOURCES
+    src/*.cpp
+)
 
-# Create executable
-add_executable(CircuitSim ${SOURCES})
+# Output executable
+add_executable(sim ${SOURCES})

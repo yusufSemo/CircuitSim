@@ -32,6 +32,7 @@ class Component{
     int getID() const {
         return id;
     }
+    virtual std::string getType() const = 0;
 
     // Every component must implement this to modify the matrix
     virtual void stamp(Circuit& circuit) = 0;

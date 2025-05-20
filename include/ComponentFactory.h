@@ -7,9 +7,8 @@
 #include <initializer_list>
 #include "Component.h"
 #include "Resistor.h"
-//Not yet implemented---
-//#include "Capacitor.h"
-//#include "VoltageSource.h"
+#include "Capacitor.h"
+#include "VoltageSource.h"
 
 class ComponentFactory{
     public:
